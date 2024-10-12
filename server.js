@@ -12,7 +12,7 @@ if ("HEROKU_DYNO_URL" in process.env) {
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const DISCORD_CHANNEL_ID = process.env.DISCORD_CHANNEL_ID;
 const DISCORD_FORWARD_BOT = (process.env.DISCORD_FORWARD_BOT === 'true')
-const BANNED_WORDS = ["airdrop", "giveaway", "air drop", "Air Drop", "AIR DROP", "AIRDROP", "Airdrop", "Giveaway", "Give away", "GIVEAWAY", "Claim", "claim"];
+const BANNED_WORDS = ["airdrop", "giveaway", "air drop", "Air Drop", "AIR DROP", "AIRDROP", "Airdrop", "Giveaway", "Give away", "GIVEAWAY", "Claim", "claim", "Тheoriq"];
 
 console.log("Telegram chat id: " + TELEGRAM_CHAT_ID);
 console.log("Discord channel id: " + DISCORD_CHANNEL_ID);
